@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -24,6 +26,8 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,9 +45,34 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Truy cập bộ sưu tập giúp quý khách chọn ảnh chữ ký</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Truy cập camera để chụp ảnh</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Truy cập micro để giúp tạo video sinh động hơn</string>
+	<key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
+	<array>
+		<string>12FC</string>
+		<string>6A82</string>
+	</array>
+	<key>com.apple.developer.nfc.readersession.formats</key>
+	<array>
+		<string>TAG</string>
+		<string>PACE</string>
+	</array>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<array>
+		<string>A0000002471001</string>
+		<string>A0000002472001</string>
+		<string>A000000151000000</string>
+		<string>D2760000850101</string>
+	</array>
+	<key>NFCReaderUsageDescription</key>
+    <string>Quét thẻ NFC</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>nfc</string>
+    </array>
 </dict>
 </plist>
