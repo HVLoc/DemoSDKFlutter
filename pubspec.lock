@@ -1003,7 +1003,7 @@ packages:
     description:
       path: "."
       ref: "feat/flutter"
-      resolved-ref: "62840676df2eb0d51f80e4741e0b9fbcdec4bb9d"
+      resolved-ref: "66ade7e460fd674f8d4d4c90b8b21eb484ff8f63"
       url: "https://github.com/HVLoc/module_ekyc.git"
     source: git
     version: "1.0.0+1"
