@@ -40,7 +40,7 @@ dependencies:
   module_ekyc:
     git:
       url: https://github.com/HVLoc/module_ekyc.git
-      ref: feat/flutter
+      ref: feat/vts
 
 dev_dependencies:
   flutter_test:

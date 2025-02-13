@@ -1002,8 +1002,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "feat/flutter"
-      resolved-ref: "66ade7e460fd674f8d4d4c90b8b21eb484ff8f63"
+      ref: "feat/vts"
+      resolved-ref: a4ded45124e49897315ef5e5cb31c7d4ebcdd1f5
       url: "https://github.com/HVLoc/module_ekyc.git"
     source: git
     version: "1.0.0+1"
