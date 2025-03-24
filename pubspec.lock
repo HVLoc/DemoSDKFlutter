@@ -285,8 +285,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "feat/flutter"
-      resolved-ref: "78ccd533131ad792cb07bb0c484dc3bfd94e7406"
+      ref: flutter_update
+      resolved-ref: "802356a3fc7b78d7f6c55bb4f1c2f4e31cc081df"
       url: "https://github.com/HVLoc/module_ekyc.git"
     source: git
     version: "1.0.0+1"
